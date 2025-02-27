@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #106EBE;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #0FFCBE;
+    color: #106EBE;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+header img.right {
+    right: 10px;
+}
+header img {
+    position: absolute;
+    top: 10px;
+    width: 100px;  /* Adjust the size of the images */
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: #0FFCBE;
+    color: #106EBE;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 600px;
+    width: 90%;
+}
+
+.box h2 {
+    text-align: center;
+    color: #106EBE;
+}
+.next-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-page button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0FFCBE;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-page button:hover {
+    background-color:  #0cc79a; 
+}
